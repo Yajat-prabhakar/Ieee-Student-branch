@@ -1,0 +1,111 @@
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    padding: var(--space-24) 0;
+}
+
+.grayBg {
+    background-color: var(--gray-50);
+}
+
+.societiesGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+}
+
+@media (min-width: 768px) {
+    .societiesGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.flexHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: var(--space-4);
+}
+
+@media (min-width: 768px) {
+    .flexHeader {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.viewAll {
+    color: var(--ieee-blue);
+    font-weight: 700;
+    font-size: var(--text-sm);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: var(--space-8);
+}
+
+.viewAll:hover {
+    text-decoration: underline;
+}
+
+.eventsGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+}
+
+@media (min-width: 768px) {
+    .eventsGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .eventsGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.ctaCard {
+    background-color: var(--ieee-blue-midnight);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--radius-lg);
+    padding: var(--space-16) var(--space-8);
+    text-align: center;
+    color: var(--white);
+}
+
+.ctaContent h2 {
+    color: var(--white);
+    font-size: var(--text-3xl);
+    margin-bottom: var(--space-4);
+}
+
+.ctaContent p {
+    max-width: 600px;
+    margin: 0 auto var(--space-8);
+    font-size: var(--text-lg);
+    color: var(--gray-200);
+}
+
+.ctaBtn {
+    display: inline-block;
+    background-color: var(--ieee-blue);
+    color: var(--white);
+    padding: var(--space-4) var(--space-12);
+    border-radius: var(--radius-sm);
+    font-weight: 700;
+    font-size: var(--text-base);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.ctaBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+    background-color: var(--ieee-blue-light);
+}

@@ -1,0 +1,33 @@
+.header {
+    margin-top: var(--space-12);
+    margin-bottom: var(--space-16);
+}
+
+.centered {
+    text-align: center;
+}
+
+.centered .line {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-size: var(--text-3xl);
+    color: var(--ieee-blue-midnight);
+    margin-bottom: var(--space-2);
+}
+
+.subtitle {
+    font-size: var(--text-lg);
+    color: var(--gray-600);
+    margin-bottom: var(--space-4);
+    max-width: 700px;
+}
+
+.line {
+    width: 60px;
+    height: 4px;
+    background-color: var(--ieee-blue);
+    border-radius: var(--radius-sm);
+}

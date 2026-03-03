@@ -1,0 +1,119 @@
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    background-color: var(--ieee-blue-midnight);
+    padding: var(--space-16) 0;
+    color: var(--white);
+    text-align: center;
+}
+
+.title {
+    font-size: var(--text-4xl);
+    color: var(--white);
+    margin-bottom: var(--space-4);
+}
+
+.subtitle {
+    font-size: var(--text-lg);
+    color: var(--gray-300);
+}
+
+.section {
+    padding: var(--space-24) 0;
+}
+
+.grayBg {
+    background-color: var(--gray-50);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-16);
+}
+
+@media (min-width: 1024px) {
+    .grid {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+.text {
+    font-size: var(--text-base);
+    line-height: 1.8;
+    color: var(--gray-700);
+    margin-bottom: var(--space-8);
+}
+
+.infoBox {
+    background-color: var(--white);
+    padding: var(--space-8);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--gray-200);
+    height: fit-content;
+}
+
+.infoBox h3 {
+    font-size: var(--text-xl);
+    margin-bottom: var(--space-6);
+    border-bottom: 2px solid var(--ieee-blue);
+    padding-bottom: var(--space-2);
+}
+
+.infoBox ul {
+    list-style: none;
+}
+
+.infoBox li {
+    margin-bottom: var(--space-4);
+    font-size: var(--text-sm);
+    color: var(--gray-700);
+}
+
+.infoBox strong {
+    display: block;
+    color: var(--ieee-blue-midnight);
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.objectivesGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+}
+
+@media (min-width: 768px) {
+    .objectivesGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .objectivesGrid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.objectiveCard {
+    background-color: var(--white);
+    padding: var(--space-8);
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-sm);
+    text-align: center;
+}
+
+.objectiveCard h4 {
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-4);
+}
+
+.objectiveCard p {
+    font-size: var(--text-sm);
+    color: var(--gray-600);
+    line-height: 1.6;
+}

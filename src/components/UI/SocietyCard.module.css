@@ -1,0 +1,73 @@
+.card {
+    background-color: var(--white);
+    padding: var(--space-12);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--gray-200);
+    transition: border-color 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    border-color: var(--ieee-blue);
+    box-shadow: var(--shadow-md);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-6);
+    margin-bottom: var(--space-8);
+}
+
+.iconPlaceholder {
+    width: 50px;
+    height: 50px;
+    background-color: var(--ieee-blue-light);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    border-radius: var(--radius-md);
+    font-size: var(--text-xs);
+}
+
+.name {
+    font-size: var(--text-lg);
+    color: var(--ieee-blue-midnight);
+    margin-bottom: 0;
+}
+
+.description {
+    font-size: var(--text-sm);
+    color: var(--gray-600);
+    line-height: 1.6;
+    margin-bottom: var(--space-6);
+}
+
+.objective {
+    font-size: var(--text-xs);
+    color: var(--gray-700);
+    padding: var(--space-4);
+    background-color: var(--gray-50);
+    border-left: 3px solid var(--ieee-blue);
+    margin-bottom: var(--space-8);
+}
+
+.btn {
+    margin-top: auto;
+    display: inline-block;
+    padding: var(--space-3) var(--space-6);
+    background-color: var(--gray-100);
+    color: var(--ieee-blue-midnight);
+    border-radius: var(--radius-sm);
+    font-weight: 700;
+    font-size: var(--text-sm);
+    text-align: center;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: var(--gray-200);
+}

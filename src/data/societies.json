@@ -1,0 +1,16 @@
+[
+    {
+        "id": "wie",
+        "name": "Women in Engineering (WIE)",
+        "description": "IEEE Women in Engineering (WIE) is one of the largest international professional organizations dedicated to promoting women engineers and scientists.",
+        "image": "/images/societies/wie.png",
+        "objective": "To inspire girls around the world to follow their academic interests to a career in engineering."
+    },
+    {
+        "id": "yp",
+        "name": "Young Professionals (YP)",
+        "description": "IEEE Young Professionals is a vibrant community of engineers, scientists, and technical experts who are in the early stages of their careers.",
+        "image": "/images/societies/yp.png",
+        "objective": "To provide professional development, networking opportunities, and a sense of community for young engineers."
+    }
+]

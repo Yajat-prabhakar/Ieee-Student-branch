@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Branch Inauguration 2026",
+        "date": "March 15, 2026",
+        "type": "Ceremony",
+        "description": "Official launch of the IEEE Student Branch at BVIMR with distinguished guests from Region 10.",
+        "image": "/images/events/inauguration.jpg",
+        "tags": [
+            "Milestone",
+            "Official"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "AI Workshop: Future of Tech",
+        "date": "April 10, 2026",
+        "type": "Workshop",
+        "description": "Hands-on session on building AI models using modern frameworks.",
+        "image": "/images/events/ai-workshop.jpg",
+        "tags": [
+            "Technical",
+            "AI"
+        ]
+    }
+]

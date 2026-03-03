@@ -1,0 +1,135 @@
+.detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    background-color: var(--gray-50);
+    padding: var(--space-8) 0 var(--space-12);
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.breadcrumb {
+    font-size: var(--text-xs);
+    color: var(--gray-500);
+    margin-bottom: var(--space-4);
+}
+
+.breadcrumb a {
+    color: var(--ieee-blue);
+    font-weight: 600;
+}
+
+.title {
+    font-size: var(--text-3xl);
+    color: var(--ieee-blue-midnight);
+    margin-bottom: var(--space-2);
+}
+
+.meta {
+    font-size: var(--text-sm);
+    color: var(--gray-600);
+    font-weight: 600;
+}
+
+.separator {
+    margin: 0 var(--space-2);
+    color: var(--gray-400);
+}
+
+.section {
+    padding: var(--space-16) 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-12);
+}
+
+@media (min-width: 1024px) {
+    .grid {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+.imagePlaceholder {
+    width: 100%;
+    height: 400px;
+    background-color: var(--gray-200);
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray-500);
+    margin-bottom: var(--space-12);
+    border: 1px solid var(--gray-300);
+}
+
+.description {
+    font-size: var(--text-base);
+    line-height: 1.8;
+    color: var(--gray-700);
+    margin-bottom: var(--space-8);
+}
+
+.tags {
+    display: flex;
+    gap: var(--space-2);
+}
+
+.tag {
+    font-size: var(--text-xs);
+    background-color: var(--gray-100);
+    color: var(--gray-700);
+    padding: var(--space-1) var(--space-3);
+    border-radius: var(--radius-sm);
+    font-weight: 700;
+}
+
+.infoCard {
+    background-color: var(--white);
+    padding: var(--space-8);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--gray-200);
+    margin-bottom: var(--space-6);
+}
+
+.infoCard h3 {
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-6);
+    border-bottom: 2px solid var(--ieee-blue);
+    padding-bottom: var(--space-2);
+}
+
+.infoRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--space-4);
+    font-size: var(--text-sm);
+}
+
+.infoRow strong {
+    color: var(--gray-500);
+    font-weight: 600;
+}
+
+.infoRow span {
+    color: var(--ieee-blue-midnight);
+    font-weight: 700;
+}
+
+.inquiryBtn {
+    display: block;
+    background-color: var(--ieee-blue-midnight);
+    color: var(--white);
+    padding: var(--space-4) var(--space-8);
+    border-radius: var(--radius-sm);
+    font-weight: 700;
+    text-align: center;
+    transition: background-color 0.2s;
+}
+
+.inquiryBtn:hover {
+    background-color: var(--ieee-blue);
+}

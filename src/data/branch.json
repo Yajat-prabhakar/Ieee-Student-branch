@@ -1,0 +1,23 @@
+{
+  "name": "IEEE BVIMR Student Branch",
+  "shortName": "IEEE BVIMR",
+  "founded": 2026,
+  "region": "Region 10 (Asia Pacific)",
+  "location": "BVIMR, New Delhi, India",
+  "contact": {
+    "email": "ieeesb@university.edu",
+    "phone": "+91 12345 67890",
+    "social": {
+      "linkedin": "https://linkedin.com/company/ieee-bvmir",
+      "instagram": "https://instagram.com/ieee_bvmir",
+      "twitter": "https://twitter.com/ieee_bvmir"
+    }
+  },
+  "stats": {
+    "members": "40+",
+    "events": "10+",
+    "awards": 5
+  },
+  "mission": "To foster technological innovation and excellence for the benefit of humanity by empowering students at BVIMR with global IEEE resources and community.",
+  "vision": "To be the leading student branch in Region 10, driving impactful projects and nurturing the next generation of technology leaders."
+}

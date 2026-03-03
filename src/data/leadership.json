@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Alex Johnson",
+        "role": "Chair",
+        "tenure": "2026 - 2027",
+        "image": "/images/leadership/chair.jpg",
+        "bio": "Electrical engineering student passionate about sustainable energy.",
+        "links": {
+            "linkedin": "#",
+            "email": "chair@university.edu"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Sarah Smith",
+        "role": "Vice Chair",
+        "tenure": "2026 - 2027",
+        "image": "/images/leadership/vice-chair.jpg",
+        "bio": "Computer Science student focused on AI and robotics.",
+        "links": {
+            "linkedin": "#",
+            "email": "vicechair@university.edu"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Michael Chen",
+        "role": "Secretary",
+        "tenure": "2026 - 2027",
+        "image": "/images/leadership/secretary.jpg",
+        "bio": "Enthusiastic about community building and technical writing.",
+        "links": {
+            "linkedin": "#",
+            "email": "secretary@university.edu"
+        }
+    }
+]
